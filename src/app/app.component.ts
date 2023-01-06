@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'formgroup';
+  show(f:any){
+    console.log(f)
+  }
 }
